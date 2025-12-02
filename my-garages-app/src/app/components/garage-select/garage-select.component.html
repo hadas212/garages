@@ -1,1 +1,14 @@
-<p>garage-select works!</p>
+<!-- Spinner בזמן טעינה -->
+<div *ngIf="loading" class="spinner-container">
+  <mat-spinner diameter="40"></mat-spinner>
+</div>
+
+<!-- Multi-Select -->
+<mat-form-field *ngIf="!loading">
+  <mat-select [(value)]="selectedGarages" multiple placeholder="בחר מוסכים">
+    <mat-option *ngFor="let g of garages" [value]="g">{{ g.name }}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<!-- כפתור הוספה -->
+<button mat-raised-button color="primary" (click)="add()">הוסף</button>

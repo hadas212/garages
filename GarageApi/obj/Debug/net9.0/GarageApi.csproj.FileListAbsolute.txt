@@ -37,3 +37,4 @@ C:\Users\user1\Documents\לימודים\מטלת בית\4\GarageApi\obj\Debug\ne
 C:\Users\user1\Documents\לימודים\מטלת בית\4\GarageApi\obj\Debug\net9.0\GarageApi.pdb
 C:\Users\user1\Documents\לימודים\מטלת בית\4\GarageApi\obj\Debug\net9.0\GarageApi.genruntimeconfig.cache
 C:\Users\user1\Documents\לימודים\מטלת בית\4\GarageApi\obj\Debug\net9.0\ref\GarageApi.dll
+C:\Users\user1\Documents\לימודים\מטלת בית\4\GarageApi\obj\Debug\net9.0\GarageApi.sourcelink.json
